@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #BB2339;
+}
+
+.container {
+  width: 1440px;
+  max-width: 100%;
+}
+
+.navbar {
+  height: 100px;
+  margin: 0px 120px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 135px;
+  height: 47px;
+}
+
+.nav-page {
+  display: flex;
+  gap: 35px;
+}
+
+.list {
+  margin-bottom: 0;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #BB2339;
+  padding: 10px 20px;
+}
+
+.list-item a:hover {
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.list-login {
+  width: 130px;
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: 1px solid white;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+
+.list-login:hover {
+  background-color: #fff;
+  color: #BB2339;
+}
+
+/* hero section  */
+
+.hero {
+  display: inline-block;
+  margin: 40px 120px 0 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.hero-text h1 {
+  color: #fff;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: capitalize;
+}
+
+.hero-text p {
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 50px;
+}
+
+.hero-btn {
+  margin-top: 40px;
+}
+
+.hero-img {
+  position: relative;
+  margin-left: 40px;
+  margin-bottom: 80px;
+}
+
+.cabob {
+  position: absolute;
+  top: 40px;
+  z-index: 2;
+  border-radius: 38%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+  .cabob {
+    width: 500px;
+  }
+
+  .circle {
+    width: 480px;
+  }
+
+  .hero-text h1 {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+
+  .hero-text span {
+    font-size: 18px;
+  }
+
+  .hero-text p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .hero-img {
+    margin-left: 0px;
+}
+
+.hero-text {
+  margin-top: -70px;
+}
+}
+
+
+@media (max-width: 1024px) {
+
+  .list {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .container {
+    width: 992px;
+    max-width: 100%;
+  }
+
+  .navbar {
+    height: 100px;
+    margin: 0px 80px;
+  }
+
+  .list {
+    gap: 5px;
+  }
+
+  .list-item a {
+    padding: 8px 10px;
+  }
+
+  .list-login {
+    padding: 10px 35px;
+  }
+
+  .hero {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-text h1 {
+    font-size: 90px;
+  }
+
+  .hero-text span {
+    font-size: 23px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .hero-img {
+    margin-top: 70px;
+  }
+
+  .cabob {
+    width: 560px;
+  }
+
+  .circle {
+    width: 540px;
+  }
+
+
+element.style {
+}
+.hero-btn {
+  margin-top: 20px;
+    display: inline-block;
+}
+
+}
+
+@media (max-width: 850px) {
+
+  .navbar {
+    height: 130px;
+    position: relative;
+  }
+
+  .nav-page {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+
+  }
+
+  .list-link {
+    margin-top: -18px;
+    order: 1;
+  }
+
+  .list {
+    order: 2;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    gap: 30px;
+  }
+
+  .nav-logo {
+    margin-top: -25px;
+  }
+
+  .hero-text h1 {
+    font-size: 70px;
+  }
+}
