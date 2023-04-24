@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaBeer } from 'react-icons/fa';
 import images from '../../constants/images';
 import icon from '../../constants/icon';
 import './Main.css';
@@ -53,8 +52,8 @@ function Main () {
     </main>
 
     <div className='main-center'>
-
-        <div className='main-center-box'>
+      <div className="container">
+      <div className='main-center-box'>
           <h1>Our Regular Menu Pack</h1>
 
           <div className='menu-panel'>
@@ -137,6 +136,7 @@ function Main () {
 
           </div>
         </div>
+      </div>
 
     </div>
 

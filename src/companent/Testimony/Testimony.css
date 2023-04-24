@@ -1,0 +1,115 @@
+.testimony {
+  background: #F4F4F4;
+  /* margin-top: 100px; */
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.testimony h1 {
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #242424;
+}
+
+.testimony h2 {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 48px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #242424;
+}
+
+.commits-box {
+  margin-left: 120px;
+  margin-right: 120px;
+  gap: 20px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.commits {
+  max-width: 410px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 10px;
+}
+
+.commits span {
+  font-weight: 600;
+  font-size: 24px;
+  color: #333333;
+}
+
+.commits p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+  opacity: 0.7;
+}
+
+.icon-bar {
+  display: flex;
+  gap: 20px;
+}
+
+.icon-bar h5 span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.icon-bar h5 {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon-page {
+  margin-top: 40px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.icon-page h3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0;
+  border: 2px solid #646464;
+  border-radius: 10px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.icon-page h3:hover {
+  border: 2px solid #BB2339;
+}
+
+.icon-page span {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #242424;
+}
