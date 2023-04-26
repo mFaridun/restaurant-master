@@ -8,11 +8,15 @@ function Video () {
   return (
     <div>
       <div className='video-sectiom'>
-        <div className='video-box'>
-          <img src="" alt="" />
-          <div></div>
+        <div className='container'>
+          <div className='video-box'>
+            <img src={images.video} alt="video" />
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
   )
 }
+
+export default Video;

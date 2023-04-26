@@ -4,6 +4,8 @@ import backCircle from '../assets/back-circle.png';
 import klipartz from '../assets/klipartz.jpg';
 import stars from '../assets/stars.png';
 import gosht from '../assets/gosht.jpg';
+import video from '../assets/video.jpg';
+import footerLogo from '../assets/footer-logo.png'
 
 export default {
 
@@ -13,4 +15,6 @@ export default {
   klipartz,
   stars,
   gosht,
+  video,
+  footerLogo,
 };
