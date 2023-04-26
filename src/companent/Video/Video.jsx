@@ -10,6 +10,7 @@ function Video () {
       <div className='video-sectiom'>
         <div className='video-box'>
           <img src="" alt="" />
+          <div></div>
         </div>
       </div>
     </div>
